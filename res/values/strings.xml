@@ -22,7 +22,7 @@
     <string name="switch_bar_off">Off</string>
 
     <!-- Device specific settings -->
-    <string name="device_settings_app_name">Advanced settings</string>
+    <string name="device_settings_app_name">realme Dirac</string>
 
     <!-- Dirac settings -->
     <string name="dirac_title">realme-Dirac Sound Enhancer</string>
