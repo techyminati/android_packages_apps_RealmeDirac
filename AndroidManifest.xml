@@ -45,7 +45,8 @@
             android:name=".DiracActivity"
             android:label="@string/dirac_title"
             android:icon="@drawable/ic_headphone"
-            android:theme="@style/Theme.Main">
+            android:theme="@style/Theme.Main"
+            android:exported="true">
             <intent-filter>
 		        <action android:name="com.android.settings.action.IA_SETTINGS" />
                         <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
@@ -60,6 +61,7 @@
             android:name=".DiracTileService"
             android:icon="@drawable/ic_headphone"
             android:label="@string/dirac_qs_tile_title"
+	    android:exported="true" 
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
